@@ -371,7 +371,7 @@ function getAnswer(){
 }
 
 
-
+//function to seperate btc and etc
 function getCurrency(jsonArray, btc, eth, keyBaseCurrency, KeyMarketCurrency){
 
     for(i = 0;i<jsonArray.length;i++){
